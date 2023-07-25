@@ -1,7 +1,7 @@
 {
-    "name": "EspruinoApps",
-    "short_name": "EspruinoApps",
-    "description": "Espruino App Loader",
+    "name": "Pinetime40Apps",
+    "short_name": "Pinetime40Apps",
+    "description": "Pinetime 40 App Loader",
     "icons": [
         {
             "src": "img/android-chrome-192x192.png",
@@ -17,6 +17,6 @@
     "theme_color": "#5755d9",
     "background_color": "#5755d9",
     "display": "standalone",
-    "start_url": "https://espruino.com/apps/",
-    "scope": "https://espruino.com/apps/"
+    "start_url": "https://joaquimorg.github.io/EspruinoApps/",
+    "scope": "https://joaquimorg.github.io/EspruinoApps/"
 }

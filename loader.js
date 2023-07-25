@@ -80,11 +80,11 @@ window.addEventListener('load', (event) => {
         </div>
       </div>
     </div>`).join("\n")}
-  </div><div class="columns">
+  </div><!--div class="columns">
     <div class="column col-12 text-center">
       <p><a href="https://www.espruino.com/Order" target="_blank">Non-Bluetooth Espruino Devices</a> will be added soon.</p>
     </div>
-  </div>`;
+  </div-->`;
   showPrompt("Which device?",html,{},false);
   htmlToArray(document.querySelectorAll(".devicechooser")).forEach(button => {
     button.addEventListener("click",event => {
