@@ -2,7 +2,7 @@
   {
     "id": "boot",
     "name": "Bootloader",
-    "version": "0.59",
+    "version": "0.01",
     "description": "This is needed by Pinetime to automatically load the clock, BT, and others",
     "icon": "bootloader.png",
     "type": "bootloader",
