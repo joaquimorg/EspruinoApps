@@ -11,10 +11,10 @@ Const.HAS_E_SHOWMESSAGE = true;
 if (window.location.host=="espruino.com") {
   document.getElementById("apploaderlinks").innerHTML =
     'This is the official Espruino App Loader - you can also try the <a href="https://espruino.github.io/EspruinoApps/">Development Version</a> for the most recent apps.';
-} else if (window.location.host=="espruino.github.io") {
+} else if (window.location.host=="joaquimorg.github.io") {
   document.title += " [Development]";
   document.getElementById("apploaderlinks").innerHTML =
-    'This is the development Espruino App Loader - you can also try the <a href="https://espruino.com/apps/">Official Version</a> for stable apps.';
+    'This is the development Espruino App Loader';/* - you can also try the <a href="https://espruino.com/apps/">Official Version</a> for stable apps.';*/
 } else {
   document.title += " [Unofficial]";
   document.getElementById("apploaderlinks").innerHTML =
@@ -22,10 +22,10 @@ if (window.location.host=="espruino.com") {
 }
 
 (function() {
-  let username = "espruino";
+  let username = "joaquimorg";
   let githubMatch = window.location.href.match(/\/(\w+)\.github\.io/);
   if (githubMatch) username = githubMatch[1];
-  Const.APP_SOURCECODE_URL = `https://github.com/${username}/EspruinoApps/tree/master/apps`;
+  Const.APP_SOURCECODE_URL = `https://github.com/${username}/EspruinoApps/tree/pinetime40/apps`;
 })();
 
 function onFoundDeviceInfo(deviceId, deviceVersion) {
